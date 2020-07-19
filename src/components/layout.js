@@ -30,11 +30,13 @@ const Layout = props => {
                 <Link to={`/`}>Home</Link>
               </li> */}
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>Sobre</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+              {/*
+             <li className="nav-elements" role="menuitem">
+                <Link to={`/elements`}>Elementos</Link>
               </li>
+           */}
               <li className="nav-tags" role="menuitem">
                 <Link to={`/tags`}>Tags</Link>
               </li>
@@ -48,13 +50,14 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://www.linkedin.com/in/adelsonmesquita/"
+                title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                LinkedIn
               </a>
+              {/*
               <a
                 href="https://twitter.com"
                 title="Twitter"
@@ -63,6 +66,7 @@ const Layout = props => {
               >
                 Twitter
               </a>
+              
               <Link
                 to={`/rss.xml`}
                 title="RSS"
@@ -71,8 +75,9 @@ const Layout = props => {
               >
                 RSS
               </Link>
+              */}
               <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
+                href="https://github.com/mesquita09"
                 title="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -89,7 +94,8 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
+        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link>{" "}
+        {/* &mdash;
         Built with{" "}
         <a
           href="https://gatsbyjs.org"
@@ -97,7 +103,7 @@ const Layout = props => {
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+            </a> */}
       </footer>
     </div>
   )

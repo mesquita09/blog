@@ -13,41 +13,53 @@ const AboutPage = ({ data }, location) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <SEO title="Sobre" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
 
       <article className="post-content page-template no-image">
         <div className="post-content-body">
           <h2 id="clean-minimal-and-deeply-customisable-london-is-a-theme-made-for-people-who-appreciate-simple-lines-">
-            Clean, minimal, and deeply customisable. London is a theme made for
-            people who appreciate simple lines.
+            olá!
           </h2>
-          <figure className="kg-card kg-image-card kg-width-full">
+          <figure className="kg-card kg-image-card">
             <Img
               fluid={data.benchAccounting.childImageSharp.fluid}
               className="kg-image"
             />
-            <figcaption>Large imagery is at the heart of this theme</figcaption>
           </figure>
-          <h3 id="dynamic-styles">Dynamic styles</h3>
+          <h3 id="dynamic-styles"></h3>
           <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
+            Sou apaixonado por tecnologia e a forma como ela pode transformar a
+            sociedade. Tenho um background em administração com especialização
+            em finanças, contudo, atualmente me dedico a aprender programação,
+            mais recentemente flutter e linux ♥.
           </p>
           <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
+            Gosto de ter um apredizado continuo, sempre me desafiando e
+            aprendendo coisas interessantes. A vontade de evoluir me alimenta na
+            busca de muitos interesses, hobbies, áreas de estudo e
+            empreendimentos. Sou um aprendiz rápido, capaz de adquirir novas
+            habilidades e conciliar projetos e funções diferentes com relativa
+            facilidade.
+          </p>
+
+          <p>
+            O pesquisador Edgar Dale dizia que depois de duas semanas, o cérebro
+            humano lembra 10% do que leu; 20% do que ouviu; 30% do que viu; 50%
+            do que viu e ouviu; 70% do que disse em uma conversa/debate; e 90%
+            do que vivenciou a partir de sua prática. O estudo ficou conhecido
+            pelo nome{" "}
+            <a
+              href="https://miro.medium.com/max/3752/1*rewFR_9JPe9RoCHFKdezTg.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              The cone of learning
+            </a>
+            ."
           </p>
           <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
+            Criei esta página com o objetivo de solidificar e compartilhar um
+            pouco dos meus estudos.
           </p>
         </div>
       </article>
@@ -62,9 +74,7 @@ const indexQuery = graphql`
         title
       }
     }
-    benchAccounting: file(
-      relativePath: { eq: "bench-accounting-49909-unsplash.jpg" }
-    ) {
+    benchAccounting: file(relativePath: { eq: "dev_isometric.png" }) {
       childImageSharp {
         fluid(maxWidth: 1360) {
           ...GatsbyImageSharpFluid
