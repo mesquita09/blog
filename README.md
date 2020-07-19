@@ -29,7 +29,11 @@
   <a href="https://github.com/mesquita09/blog/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/mesquita09/blog.svg">
   </a>
-    <a href="https://app.netlify.com/sites/am-dev/deploys">
+    
+</p>
+
+<p align="center">
+  <a href="https://app.netlify.com/sites/am-dev/deploys">
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/28356cd6-52af-4c2a-99bc-436188c6583b/deploy-status">
   </a>
 </p>
