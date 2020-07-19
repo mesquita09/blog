@@ -1,65 +1,38 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- PROJECT LOGO AND TITLE-->
+<h1 align="center">
+    <br>
+    Blog
+</h1>
+<br />
+
+<!-- PROJECT SHIELDS -->
+<h4 align="center">
+  blog to solidify and share a little of my studies.
+</h4>
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="80" />
+  <a href="https://app.codacy.com/app/mesquita09/blog?utm_source=github.com&utm_medium=referral&utm_content=mesquita09/api-blog&utm_campaign=Badge_Grade_Dashboard">
+    <img alt="Codacy grade" src="https://api.codacy.com/project/badge/Grade/d20792ff896d4ab2981307d37e88c19f">
+  </a>
+
+  <a href="https://travis-ci.org/dbader/node-datadog-metrics">
+    <img alt="Codacy grade" src="https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square">
+  </a>
+
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mesquita09/blog.svg">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mesquita09/blog.svg">
+
+  <a href="https://github.com/mesquita09/blog/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mesquita09/blog.svg">
+  </a>
+
+  <a href="https://github.com/mesquita09/blog/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/mesquita09/blog.svg">
   </a>
 </p>
 
-<h1 align="center">
-  London After Midnight
+## <br />
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vaporwavy/gatsby-london-after-midnight)
+### Blog
 
-</h1>
-
----
-
-A custom, image-centric theme for Gatsby. Made for publishers and portfolios with plenty of graphics to show off to the world. Completely free and fully responsive, released under the MIT license.
-
-**Based on [London](https://github.com/ImedAdel/gatsby-london) for Gatsby**
-
-**Demo: https://gatsby-lam.vaporwavy.io**
-
----
-
-### What is different from London?
-* Support Tag
-* Full Recoloring for Dark themes
-* Highlight Syntax with Prism.js
-* Support Korean and Japanese
-* Parameterize All Colors
-* Change the Format of Thumbnailless Postcards
-
----
-
-_First time with Gatsby? Take a look on the [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use `npx` and the Gatsby CLI to create a new project
-
-    ```sh
-    # create a new Gatsby site using the blog starter
-    npx gatsby new my-awesome-portfolio https://github.com/vaporwavy/gatsby-london-after-midnight
-    ```
-
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-awesome-portfolio/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+- blog para solidificar e compartilhar um pouco dos meus estudos.
