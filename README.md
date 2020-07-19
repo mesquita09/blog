@@ -31,4 +31,6 @@
   </a>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/28356cd6-52af-4c2a-99bc-436188c6583b/deploy-status)](https://app.netlify.com/sites/am-dev/deploys)
+
 ## <br />
