@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO AND TITLE-->
 <h1 align="center">
     <br>
-    Blog
+    My Blog
 </h1>
 <br />
 
@@ -32,7 +32,3 @@
 </p>
 
 ## <br />
-
-### Blog
-
-- blog para solidificar e compartilhar um pouco dos meus estudos.
